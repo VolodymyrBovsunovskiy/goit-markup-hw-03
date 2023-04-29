@@ -194,12 +194,7 @@ body {
   margin: auto;
 }
 
-.title {
-  margin-top: 0;
-  line-height: 1.2;
-  display: none;
-  color: var(--main-title-color);
-}
+
 
 .features-item {
   width: calc((100%-72px)/4);
