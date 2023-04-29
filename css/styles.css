@@ -198,14 +198,12 @@ body {
 .title {
   margin-top: 0;
   line-height: 1.2;
-  display: none;
+  display:;
   color: var(--main-title-color);
 }
 
 .features-item {
-  width: 264px;
-  height: 104px;
-  width: calc((100%-72px)/4);
+  width: calc((100% - 72px)/4);
 }
 
 .project-title {
