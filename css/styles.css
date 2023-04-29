@@ -202,8 +202,6 @@ body {
 }
 
 .features-item {
-  width: 264px;
-  height: 104px;
   width: calc((100%-72px)/4);
 }
 
