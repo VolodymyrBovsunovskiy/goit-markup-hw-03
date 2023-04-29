@@ -26,6 +26,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   width: 1158px;
+  padding: 0 15px;
 }
 
 
@@ -252,7 +253,7 @@ body {
   margin-right: 0;
 }
 
-.one-features-item {
+.features-item:first-child {
   flex-basis: calc((100% - 72px) / 4);
 }
 
@@ -284,6 +285,9 @@ body {
   width: 360px;
   height: 300px;
   border: 1px solid #e7e9fc;
+}
+
+.services-item:first-child { 
   flex-basis: calc((100% - 3 * 16px) / 3);
 }
 
