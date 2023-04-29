@@ -253,7 +253,7 @@ body {
   margin-right: 0;
 }
 
-.features-item:first-child {
+.features-item {
   width: calc((100%-72px)/4);
 }
 
