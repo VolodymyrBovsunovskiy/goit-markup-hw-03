@@ -20,7 +20,6 @@ body {
   margin-right: auto;
   margin-left: auto;
   width: 1158px;
-  padding: 0 15px;
 }
 .container-top {
   display: flex;
@@ -204,6 +203,8 @@ body {
 }
 
 .features-item {
+  width: 264px;
+  height: 104px;
   width: calc((100%-72px)/4);
 }
 
@@ -246,6 +247,7 @@ body {
 
 .features-list {
   display: flex;
+  padding: 0 15px;
   gap: 24px;
 }
 
