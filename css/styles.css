@@ -204,6 +204,7 @@ body {
 .features-item {
   width: 264px;
   height: 104px;
+  width: calc((100%-72px)/4);
 }
 
 .project-title {
@@ -247,7 +248,6 @@ body {
   display: flex;
   padding: 0 15px;
   gap: 24px;
-  width: calc((100%-72px)/4);
 }
 
 .features-list:last-child {
