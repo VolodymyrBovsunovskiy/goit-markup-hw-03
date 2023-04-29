@@ -247,14 +247,11 @@ body {
   display: flex;
   padding: 0 15px;
   gap: 24px;
+  width: calc((100%-72px)/4);
 }
 
 .features-list:last-child {
   margin-right: 0;
-}
-
-.features-list {
-  width: calc((100%-72px)/4);
 }
 
 .services {
