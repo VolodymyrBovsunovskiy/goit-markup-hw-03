@@ -1,3 +1,4 @@
+
 :root {
   --background-color: #ffffff;
   --logo-color: #4d5ae5;
@@ -19,6 +20,8 @@ body {
 .container {
   margin-right: auto;
   margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
   width: 1158px;
 }
 .container-top {
@@ -51,8 +54,6 @@ body {
 
 .nav-container {
   display: flex;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .menu {
@@ -245,7 +246,6 @@ body {
 
 .features-list {
   display: flex;
-  padding: 0 15px;
   gap: 24px;
 }
 
@@ -288,7 +288,6 @@ body {
 }
 
 .our-team-list {
-  padding: 0 15px;
   gap: 24px;
 }
 
@@ -413,7 +412,6 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  padding: 15px 0;
 }
 
 .portfolio-item {
