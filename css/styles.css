@@ -308,7 +308,7 @@ body {
 }
 
 .our-team-item {
-  width: calc((100% -48px)/4);
+  width: calc((100% - 72px) / 4);
 }
 .name-team {
   padding: 32px 16px;
