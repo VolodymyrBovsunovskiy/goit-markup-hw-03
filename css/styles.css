@@ -67,7 +67,7 @@ body {
   display: flex;
 }
 
-.logo-link {
+.logo-link-header, .logo-link-footer {
   font-family: 'Raleway', sans-serif;
   display: inline-block;
   padding: 24px 0;
@@ -347,6 +347,9 @@ body {
   left: 156px;
   margin-bottom: 16px;
   color: var(--right-part-logo-footer);
+}
+.logo-link-footer {
+  margin-bottom: 16px;
 }
 
 .text {
